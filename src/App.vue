@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Tis da home page'</router-link> ← ☼ →
+      <router-link to="/test">Jus' testing</router-link> ← ☼ →
+      <router-link to="/products/index">PRODUCTS are Here</router-link> ← ☼ →
+      <router-link to="/products/new">New Product you Fancy</router-link>
+
     </div>
     <router-view/>
+    <!-- "router-view/" router.js, a place holder for the entire home page, holds all individual pages -->
   </div>
 </template>
 
